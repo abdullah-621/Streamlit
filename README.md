@@ -21,3 +21,6 @@ pip install uvicorn
 uv venv
 uv pip install fastapi uvicorn
 uv run uvicorn main:app --reload
+
+
+* streamlit run main_3.py --server.runOnSave true
